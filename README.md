@@ -10,12 +10,13 @@ A **LeakScan** tem como objetivo realizar buscas em diversas APIs e fontes públ
 - Interface intuitiva e responsiva
 
 ## Tecnologias Utilizadas 💻📡⚙️
-- **Backend**: Golang / Python
+- **Backend**: Java / Golang
 - **Frontend**: React.js / Next.js
 - **Banco de Dados**: PostgreSQL
 - **APIs**: Have I Been Pwned, LeakCheck, Google Dorking, entre outras
 
 ## Fluxo de Funcionamento 🔄🔎📑
+0. A aplicação pergunta o tipo de busca, sendo ela pessoal ou empresarial.
 1. O usuário insere um nome, e-mail, telefone ou outro identificador.
 2. A aplicação faz requisições para diversas fontes OSINT.
 3. Os resultados são processados e armazenados temporariamente.
