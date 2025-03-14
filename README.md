@@ -1,6 +1,6 @@
 ## 🌟 What is LeakScan ?
 
-A **LeakScan** tem como objetivo realizar buscas em diversas APIs e fontes públicas para identificar quais dados de uma determinada pessoa estão expostos na internet. Dessa forma, o usuário pode avaliar os riscos de vazamento de informações sensíveis e tomar medidas de segurança. 🔐🕵️‍♂️📊
+A **LeakScan** tem como objetivo realizar buscas em diversas APIs e fontes públicas para identificar quais dados de uma determinada pessoa ou empresa estão expostos na internet. Dessa forma, o usuário pode avaliar os riscos de vazamento de informações sensíveis e tomar medidas de segurança. 🔐🕵️‍♂️📊
 
 ## Funcionalidades 🚀🛠️🌍
 - Consulta automática em bancos de dados públicos e dark web
