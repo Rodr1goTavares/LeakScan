@@ -1,39 +1,44 @@
-## 🌟 What is LeakScan ?
+# OSINT Search Application Documentation
 
-A **LeakScan** tem como objetivo realizar buscas em diversas APIs e fontes públicas para identificar quais dados de uma determinada pessoa ou empresa estão expostos na internet. Dessa forma, o usuário pode avaliar os riscos de vazamento de informações sensíveis e tomar medidas de segurança. 🔐🕵️‍♂️📊
+## Introduction 🎯🔍💡
+The OSINT Search application aims to perform searches across various APIs and public sources to identify which data of a given person is exposed on the internet. This allows users to assess the risks of sensitive information leaks and take security measures. 🔐🕵️‍♂️📊
 
-## Funcionalidades 🚀🛠️🌍
-- Consulta automática em bancos de dados públicos e dark web
-- Integração com múltiplas APIs OSINT
-- Geração de relatórios detalhados
-- Notificação sobre dados comprometidos
-- Interface intuitiva e responsiva
+## Features 🚀🛠️🌍
+- Automatic query in public databases and dark web
+- Integration with multiple OSINT APIs
+- Detailed report generation
+- Notification of compromised data
+- Intuitive and responsive interface
 
-## Tecnologias Utilizadas 💻📡⚙️
-- **Backend**: Java / Golang
+## Technologies Used 💻📡⚙️
+- **Backend**: Golang / Python
 - **Frontend**: React.js / Next.js
-- **Banco de Dados**: PostgreSQL
-- **APIs**: Have I Been Pwned, LeakCheck, Google Dorking, entre outras
+- **Database**: PostgreSQL
+- **APIs**: Have I Been Pwned, LeakCheck, Google Dorking, among others
 
-## Fluxo de Funcionamento 🔄🔎📑
-0. A aplicação pergunta o tipo de busca, sendo ela pessoal ou empresarial.
-1. O usuário insere um nome, e-mail, telefone ou outro identificador.
-2. A aplicação faz requisições para diversas fontes OSINT.
-3. Os resultados são processados e armazenados temporariamente.
-4. Um relatório é gerado, detalhando onde os dados foram encontrados.
-5. O usuário recebe alertas e sugestões de mitigação. ⚠️📢✅
+## Workflow 🔄🔎📑
+1. The user enters a name, email, phone number, or other identifier.
+2. The application makes requests to various OSINT sources.
+3. The results are processed and temporarily stored.
+4. A report is generated, detailing where the data was found.
+5. The user receives alerts and mitigation suggestions. ⚠️📢✅
 
-## Considerações de Segurança 🛡️🔏📜
-- Todas as consultas são feitas de forma anônima.
-- Nenhum dado do usuário é armazenado permanentemente.
-- A aplicação não realiza buscas ilegais ou invasivas.
-- As informações apresentadas são de fontes públicas. 🕵️‍♀️🔒👀
+## Security Considerations 🛡️🔏📜
+- All queries are made anonymously.
+- No user data is permanently stored.
+- The application does not perform illegal or invasive searches.
+- The information presented comes from public sources. 🕵️‍♀️🔒👀
 
-## Como Contribuir 🏗️📥🔄
-1. Clone o repositório do projeto.
-2. Crie uma branch para sua contribuição.
-3. Implemente a funcionalidade ou correção desejada.
-4. Submeta um pull request para revisão. 🚀📌✅
+## How to Contribute 🏗️📥🔄
+1. Clone the project repository.
+2. Create a branch for your contribution.
+3. Implement the desired feature or fix.
+4. Submit a pull request for review. 🚀📌✅
+
+## License 📜✅🔓
+This project is open-source and licensed under the MIT License.
+
+
 
 ## Licença 📜✅🔓
 Este projeto é open-source e está licenciado sob a MIT License.
